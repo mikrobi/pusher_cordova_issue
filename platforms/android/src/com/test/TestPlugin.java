@@ -23,11 +23,14 @@ public class TestPlugin extends CordovaPlugin {
 
     private void test(final CallbackContext callbackContext) {
         Log.d("TestPlugin", "executing test");
+        /*
         cordova.getThreadPool().execute(new Runnable() {
             @Override
             public void run() {
                 callbackContext.success("0cc63f47cc68c3c2283a");
             }
         });
+        */
+        callbackContext.success("0cc63f47cc68c3c2283a");
     }
 }
