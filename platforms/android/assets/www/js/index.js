@@ -34,6 +34,18 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
+        console.log('calling native plugin..');
+
+        cordova.exec((function(arg) {
+            console.log('initializing pusher with ' + arg);
+            var options = { 'encrypted' : true };
+            var pusher = new Pusher(arg, options);
+            console.log('binding to pusher connection state change');
+            pusher.connection.bind('state_change', (function(states){ console.log('pusher connection changed: ' + states.current) }));
+            console.log('pusher connection is ' + pusher.connection.state);
+        }), (function(){console.log('error');}), 'com.test.TestPlugin', 'test', []);
+        console.log('called native plugin');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
