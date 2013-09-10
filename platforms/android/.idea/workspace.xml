@@ -94,11 +94,8 @@
       <file leaf-file-name="TestPlugin.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/test/TestPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="11" selection-start="916" selection-end="916" vertical-scroll-proportion="2.6785715" vertical-offset="0" max-vertical-offset="495">
-              <folding>
-                <element signature="e#755#914#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-              </folding>
+            <state line="29" column="21" selection-start="858" selection-end="858" vertical-scroll-proportion="0.35714287" vertical-offset="310" max-vertical-offset="540">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -542,11 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/TestPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="11" selection-start="916" selection-end="916" vertical-scroll-proportion="2.6785715" vertical-offset="0" max-vertical-offset="495">
-          <folding>
-            <element signature="e#755#914#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-          </folding>
+        <state line="29" column="21" selection-start="858" selection-end="858" vertical-scroll-proportion="0.35714287" vertical-offset="310" max-vertical-offset="540">
+          <folding />
         </state>
       </provider>
     </entry>
